@@ -1,0 +1,153 @@
+
+p{margin: 0;
+padding: 0;}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.main-container{
+  
+   background-color: var(--background-color);
+}
+
+.container .text h2{
+   font-family: 'neue-machina';
+   display: flex;
+   justify-content: center;
+   font-size: 35px;
+   padding: 10px;
+   color: rgba(0, 0, 0, 0.7);
+   padding-top: 150px;
+   padding-bottom: 40px;
+
+}
+
+@font-face {
+    font-family: 'neue-machina';
+    src: url('/public/NeueMachina-Regular.otf');
+}
+
+
+
+.card-container{
+  width: 300px;
+  height: 520px;
+  background: var(--background-color);
+  overflow: hidden;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0;
+  width: calc(25% - 10px);
+}
+
+.card-container .top {
+  height: 65%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-container .top img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bottom{
+
+  width: 100%;
+  
+}
+
+
+
+
+
+
+
+
+.card-map{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+ 
+  
+
+}
+
+.cart-icon{
+  position: fixed;
+  top: 5px;
+  right: 10px;
+  background-color: pink;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  
+}
+
+.pinkcart{
+  width: 30px;
+  height: 30px;
+  color: white;
+  
+}
+
+.butto button{
+padding: 5px 28px;
+font-weight: 700;
+}
+
+.addto{
+  height: 100%;
+  font-size: 20px;
+  
+  
+}
+
+.bottom-det{
+  padding: 6px 0px;
+}
+
+.bottom{
+  padding-bottom: 158px;
+}
+
+.ts{
+padding-bottom: 8px;
+padding-left: 8px;
+}
+
+.butto{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.brand-name{
+  font-size: 18px;
+  color: rgb(132, 132, 130);
+}
+
+.product-name{
+  font-size: 21px;
+  
+}
+
+.price{
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.cart-done{
+  width: 30px;
+  height: 30px;
+  color: green;
+}
+
+

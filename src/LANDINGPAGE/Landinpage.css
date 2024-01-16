@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'neue-machina';
+    src: url('/public/NeueMachina-Regular.otf');
+}
+
+@font-face {
+    font-family: 'neue-machina-ultra';
+    src: url('/public/NeueMachina-Ultrabold.otf');
+}
+
+
+.main-landing{
+    position: relative;
+    height: 100vh;
+    background-color: var(--background-color);
+   
+}
+
+.line-div{
+    border-top: 3px solid #A7E139;
+    font-weight: 900;
+    margin: 20px 0;
+    width: 350px;
+}
+
+.header-lan{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'neue-machina';
+    padding: 10px 0;
+    z-index: 3;
+    position: relative;
+}
+
+.center-lan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    
+    
+}
+
+.center-lan .center-text{
+    padding: 0 40px;
+}
+
+.left-lan{
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    
+    font-weight: bold;
+    font-size: 26.5px;
+    color: #202020;
+    
+
+}
+
+.right-lan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 70px;
+}
+
+.right-lan .store-i{
+    padding-left: 35px;
+    color: #A7E139;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+
+
+.Newarrival{
+    font-family: 'neue-machina-ultra';
+    color: #A7E139;
+    font-size: 148px;
+    font-weight: 900;
+    width: 796px;
+    height: 100vh;
+    line-height: 0.9;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 300px;
+    
+}
+
+.ima1{
+    position: absolute;
+    width: 370px;
+    height: 540px;
+    background: url('../5.png');
+    background-size: cover; 
+    top: 0;
+    right: 0;
+    z-index: 1;
+    
+   
+    
+}
+
+.ima2{
+    position: absolute;
+    width: 420px;
+    height: 560px;
+    background: url('../image2.png');
+    background-size: cover;
+    bottom: 0;
+    right: 300px;
+    z-index: 2;
+    
+   
+    
+}
+
+.ima3{
+    position: absolute;
+    width: 394px;
+    height: 495px;
+    background: url('../image3.png');
+    background-size: cover;
+    top: 100px;
+    left: 600px;
+   
+    z-index: 1;
+    
+   
+    
+}
+
+
+.text-lan{
+    font-family: 'neue-machina';
+    font-size: 15px;
+    position: absolute;
+   bottom: 350px;
+   
+    transform: rotate(-90deg);
+    transform-origin: bottom center;
+    
+}
+
+.black-div{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 497px;
+    height: 219px;
+    padding: 30px 30px;
+    left: 250px;
+    z-index: 5;
+    font-family: "Arimo", sans-serif;
+
+
+    .fashion{
+        padding-bottom: 10px;
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    .fashion-con{
+        padding-bottom: 20px;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    .shop-now{
+        
+        font-size: 15px;
+        padding-left: 30px;
+    }
+}
+
+.barcode{
+    background: url('../44019-removebg-preview.png');
+ width: 140px;
+ height: 90px;
+ position: absolute;
+ bottom: 20px;
+ right: 20px;
+ background-size: cover;
+    
+}
+
+
+
+@keyframes breathe {
+    0% { transform: scale(1); }
+    50% { transform: scale(2.1); }
+    100% { transform: scale(1) ; }
+  }
+
+  .breathing-icon {
+    
+    display: inline-block;
+    animation: breathe 3s infinite ease-in-out;
+  }
+
+

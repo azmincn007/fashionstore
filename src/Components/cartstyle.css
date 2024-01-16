@@ -1,0 +1,207 @@
+.main-cart{
+    background-color: var(--background-color);
+}
+
+body{
+    background-color: var(--background-color);
+
+}
+
+.line-div{
+    border-top: 3px solid #A7E139;
+    font-weight: 900;
+    margin: 20px 0;
+    width: 350px;
+}
+
+.header-lan{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'neue-machina';
+    padding: 10px 0;
+    z-index: 3;
+    position: relative;
+}
+
+.center-lan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    
+    
+}
+
+.center-lan .center-text{
+    padding: 0 40px;
+}
+
+.left-lan{
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    
+    font-weight: bold;
+    font-size: 26.5px;
+    color: #202020;
+    
+
+}
+
+.right-lan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 70px;
+}
+
+.right-lan .store-i{
+    padding-left: 35px;
+    color: #A7E139;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+/* App.css */
+
+.cartmap {
+    width: 70%;
+    margin: auto;
+  }
+  
+  table {
+ 
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .item-cell {
+    width: 30%; /* Adjust as needed */
+  }
+  
+  .item-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-content img {
+    width: 90px; /* Adjust as needed */
+    height: 90px; /* Adjust as needed */
+    margin-right: 10px;
+  }
+
+ /* YourStylesheet.css */
+
+.qnty-div {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .left-side,
+  .right-side {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    position: relative;
+  }
+  
+  .left-side {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center
+  }
+  
+  .left-side::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1.5px; /* Adjust the width of the vertical line as needed */
+    background-color: #000; /* Adjust the color of the vertical line as needed */
+    right: 0;
+  }
+
+
+  .center {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center
+  }
+  
+  .center::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 2px; /* Adjust the width of the vertical line as needed */
+    background-color: #000; /* Adjust the color of the vertical line as needed */
+    right: 0;
+  }
+
+
+  .qnty-div button{
+    outline: none;
+    border: none;
+    background: none;
+  }
+  
+
+ .dis{
+    display: flex;
+ } 
+
+
+ .bill-div{
+  padding-right: 10px;
+  width: 300px;
+  height: 200px;
+  background-color: #000;
+ }
+
+ .subtotal, .delivery, .grand-total{
+  padding: 8px 6px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+ }
+
+
+.f{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.clear-icon{
+  color: red;
+  width: 20px;
+  height: 20px;
+
+}
+.icon-dis button{
+  border: none;
+  background: none;
+}
+
+.price-bold, .text-di{
+  font-weight: bold;
+}
