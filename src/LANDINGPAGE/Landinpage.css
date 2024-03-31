@@ -25,6 +25,7 @@
     font-weight: 900;
     margin: 20px 0;
     width: 350px;
+    font-size: 1.5rem;
 }
 
 .header-lan{
@@ -206,4 +207,8 @@
     animation: breathe 3s infinite ease-in-out;
   }
 
+
+.link {
+   color: #202020;}
+   
 

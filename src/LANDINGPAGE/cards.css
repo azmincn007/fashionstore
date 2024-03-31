@@ -1,0 +1,56 @@
+.mappingproducts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.link {
+   text-decoration: none;
+  }
+.card {
+  width: 300px;
+  height: 500px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+
+   div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+}
+.card img {
+  width: 100%;
+  height: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.mybutton{
+    border: none;
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.container h2{
+    padding: 1rem 0rem;
+}
+
+.category-products {
+  display: flex;
+  justify-content: flex-end;
+
+  select{
+    width: 150px;
+    height: 30px;
+  }
+}

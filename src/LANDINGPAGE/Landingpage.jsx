@@ -3,23 +3,30 @@ import "./Landinpage.css";
 import { IoBagOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
-
 function Landingpage() {
   return (
     <div className="main-landing">
-       
       <div className="Newarrival">New Arrival</div>
       <div className="header-lan">
         <div className="left-lan">MIDNIGHT FASHION</div>
         <div className="center-lan">
-          <div className="center-text">Shop</div>
-          <div className="center-text">Store</div>
-          <div className="center-text">About</div>
+          <Link to="/" className="link">
+            <div className="center-text">Shop</div>
+          </Link>
+          <Link to="/" className="link">
+            <div className="center-text">Store</div>
+          </Link>
+    
+            <div className="center-text">About</div>
+          
+         
         </div>
         <div className="right-lan">
-          <div className="line-div"></div>
+          <div className="line-div"><Link to={'users'} className="link">Users</Link></div>
           <div className="store-i">
-           <Link to={'./cart'} > <IoBagOutline className="breathing-icon" /></Link>
+            <Link to="./cart">
+              <IoBagOutline className="breathing-icon" />
+            </Link>
           </div>
         </div>
       </div>
@@ -42,8 +49,6 @@ function Landingpage() {
       </div>
 
       <div className="barcode"></div>
-
-     
     </div>
   );
 }
